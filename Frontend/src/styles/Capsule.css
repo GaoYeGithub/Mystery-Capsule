@@ -1,0 +1,76 @@
+.capsule {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+  }
+  
+  .capsule.locked:hover {
+    transform: scale(1.1);
+  }
+  
+  .locked .lock-icon {
+    font-size: 2em;
+    color: #fff;
+  }
+  
+  .unlocked {
+    animation: unlockGlow 1s forwards;
+  }
+  
+  @keyframes unlockGlow {
+    0% {
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+    }
+    100% {
+      box-shadow: 0 0 30px rgba(255, 255, 255, 0.6);
+    }
+  }
+  
+  .gradient-purple-blue {
+    background: linear-gradient(45deg, #7e5dff, #1dd3b0);
+  }
+  
+  .gradient-blue-pink {
+    background: linear-gradient(45deg, #00c6ff, #ff758c);
+  }
+  
+  .gradient-pink-purple {
+    background: linear-gradient(45deg, #ff758c, #7e5dff);
+  }
+  
+  .content-preview {
+    font-size: 1.5em;
+    color: white;
+    animation: reveal 1s forwards;
+  }
+  
+  @keyframes reveal {
+    0% {
+      opacity: 0;
+      transform: scale(0.9);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  .photo-preview {
+    color: #ff7c7c;
+  }
+  
+  .video-preview {
+    color: #7ccfff;
+  }
+  
+  .text-preview {
+    color: #d1c4ff;
+  }
+  

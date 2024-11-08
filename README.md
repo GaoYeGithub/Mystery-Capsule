@@ -13,7 +13,7 @@
 ![alt text](image-5.png)
 
 ## Inspiration
-Orginally I wanted to make a time capsule, that will store chats, and images in a chest and will be sent to you in a dm some time later so you can reminiscent about it but I pivot as it was complicated and I didn't know how to learn how to make a cdn so instead I just store a videos only. But I still achieve my goal for the project which was to learn three.js(animation like the chest, lights, etc), how to make a discord bot(slash commands, hosting, etc), and database (storing stuff with pocketdb).
+Orginally I wanted to make a time capsule with a java api, that will store chats, and images in a chest and will be sent to you in a dm some time later so you can reminiscent about it but I pivot as it was complicated and I didn't know java very well and didn't know how to make a cdn so instead I just store youtube links only and used their embed function. But I still achieve my goal for the project which was to learn three.js(animation like the chest, lights, etc), how to make a discord bot(slash commands, hosting, etc), and database (storing stuff with pocketdb).
 
 ## What it does
 This project was just a silly little thing I made for fun. But it allows people to add some flair when sending youtube video recommendations. 
